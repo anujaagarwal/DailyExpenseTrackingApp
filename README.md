@@ -2,7 +2,8 @@
 
 >This a django project which is used to manage the daily expenses of different users. Different users can register and create account on this application and record their day-to-day expenses.The user can view , edit and delete their expenses as well.
 
-
+### Edge Cases
+>I have added edit and delete option of the expenses in modify list pa
 
 ### Getting Started
 
