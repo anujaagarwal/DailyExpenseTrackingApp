@@ -42,11 +42,11 @@
 
 
 ### Working
-![App Working](reg.png)
-![App Working](login.png)
-![App Working](hm.png)
-![App Working](list.png)
-![App Working](modify.png)
+![App Working](Register.png)
+![App Working](LoginPage.png)
+![App Working](HomePage.png)
+![App Working](ViewList.png)
+![App Working](Modify.png)
 
  
 ### Future work
