@@ -25,8 +25,7 @@ class Expenses(models.Model):
     usr = models.ForeignKey(User, on_delete=models.CASCADE)
     
     def __str__(self):
-        return u"{} | {} | {} |  {} | {}".
-        format(self.usr, self.name,self.amount, self.exp_type, self.date)
+        return u"{} | {} | {} |  {} | {}".format(self.usr, self.name,self.amount, self.exp_type, self.date)
 
     def get_absolute_url(self):
         return reverse('index')
