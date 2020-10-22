@@ -3,9 +3,9 @@ from .models import Expenses, exp_category
 
 class ExpensesForm(forms.ModelForm):
     class Meta:
-        model=Expenses
-        fields=["name","amount","exp_type"]
-        #fields=["name"]
+        model = Expenses
+        fields = ["name", "amount", "exp_type"]
+        # fields=["name"]
 
 class UserForm(forms.Form):
         name = forms.CharField(max_length=100)
